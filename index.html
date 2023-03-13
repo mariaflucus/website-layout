@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - Crearea layoutului unui site folosind Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap2.min.css">
+    <style>
+        .container{
+            margin: 0 auto;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            background-color: #38c48c;
+            font-size: 2vw;
+            color: white;
+            padding: 1%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row align-items-center my-4 ">
+            <div class="col-lg-4 col-md-8 col-sm-10">
+                <div class="display-4">My Website</div> 
+            </div>
+            <div class="col-8 justify-content-between d-none d-lg-flex">
+                <button type="button" class="btn btn-light">Home</button>
+                <button type="button" class="btn btn-light">Portfolio</button>
+                <button type="button" class="btn btn-light">Staff</button>
+                <button type="button" class="btn btn-light">Features</button>
+                <button type="button" class="btn btn-light">Blog</button>
+                <button type="button" class="btn btn-light">Contact</button>
+                <button type="button" class="btn btn-light">Download</button>
+            </div>
+            <div class="col-md-4 col-sm-2 d-lg-none d-sm-flex d-md-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="imgs/menu.png" alt="menu" style="width: 20px; height: 20px;">
+                <div class="display-5" style="font-size: 20px;">Menu</div>
+
+            </div>
+        </div>
+        
+        <div class="row mt-2">
+            <div class="col-12">
+                <img class="img-fluid" src="imgs/hero.jpg" alt="hero">
+                <div class="top-left"><b>We strive to make all of our creations exquisite.</b></div> 
+            </div>
+        </div>
+
+        <div class="row mt-2 text-center align-items-center" style="height: auto;" >
+            <div class="col-lg-3 col-md-12 col-sm-12">
+                <img class="img-fluid" src="imgs/icon-1.png" alt="icon-1">
+                <h4 class="h4">Purpose</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12">
+                <img class="img-fluid" src="imgs/icon-2.png" alt="icon-2">
+                <h4 class="h4">Quality</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12">
+                <img class="img-fluid" src="imgs/icon-3.png" alt="icon-3">
+                <h4 class="h4">Function</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12">
+                <img class="img-fluid" src="imgs/icon-4.png" alt="icon-4">
+                <h4 class="h4">Elegant</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+
+        </div>
+    
+        <div class="row">
+            <h4 class="h4 mb-0 text-uppercase">Recent work</h4>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img class="img-fluid" src="imgs/bike-400x340.jpg" alt="bike">
+                <h5 class="h5">Green Bike</h5>
+                <small class="text-muted">Beautiful, Travel</small>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img class="img-fluid" src="imgs/surf-400x340.jpg" alt="surf">
+                <h5 class="h5">Salt of the Earth</h5>
+                <small class="text-muted">Beautiful, Travel</small>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img class="img-fluid" src="imgs/hills-400x340.jpg" alt="hills">
+                <h5 class="h5">Mountain High</h5>
+                <small class="text-muted">Beautiful</small>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img class="img-fluid" src="imgs/path-400x340.jpg" alt="path">
+                <h5 class="h5">When a Tree Falls</h5>
+                <small class="text-muted">Travel</small>
+            </div>
+        </div>
+
+        <div class="row">
+            <h4 class="h4 mb-0 text-uppercase">from the blog</h4>
+        </div>
+        <hr>
+
+        <div class="row"> 
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img class="img-fluid" src="imgs/cow-640x340.jpg" alt="cow">
+                <h5 class="h5">How Now</h5>
+                <small class="text-muted">Posted on October 28, 2020</small>
+                <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cumque nesciunt ea! Voluptatibus consequatur perferendis quo excepturi nihil laborum distinctio nesciunt totam molestias sequi error, iure pariatur, adipisci laboriosam molestiae.</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img class="img-fluid" src="imgs/sunrise-640x340.jpg" alt="sunrise">
+                <h5 class="h5">Adrift by Simon Christen</h5>
+                <small class="text-muted">Posted on September 29, 2020</small>
+                <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cumque nesciunt ea! Voluptatibus consequatur perferendis quo excepturi nihil laborum distinctio nesciunt totam molestias sequi error, iure pariatur, adipisci laboriosam molestiae.</p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img class="img-fluid" src="imgs/grass-640x340.jpg" alt="grass">
+                <h5 class="h5">A Walk In The Park</h5>
+                <small class="text-muted">Posted on August 10, 2020</small>
+                <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cumque nesciunt ea! Voluptatibus consequatur perferendis quo excepturi nihil laborum distinctio nesciunt totam molestias sequi error, iure pariatur, adipisci laboriosam molestiae.</p>
+            </div>
+        </div>
+
+
+        <div class="row pt-5" style="background-color: #222222; color: white;">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h5 class="h5 strong">My Website</h5>
+                <p class="small" style="color: rgba(255, 255, 255, 0.616);">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cumque nesciunt ea! Voluptatibus consequatur perferendis quo excepturi nihil laborum distinctio nesciunt totam molestias sequi error, iure pariatur, adipisci laboriosam molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt similique quisquam tempora id nostrum reprehenderit quos nisi corrupti autem! Cupiditate quibusdam similique maiores dolorem fugit nisi consectetur nemo iure. Corporis.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h5 class="h5 strong">Recent Posts</h5>
+                <div class="small" style="color: rgba(255, 255, 255, 0.767);">
+                    <hr>
+                    <p>How Now</p>
+                    <hr>
+                    <p>Adrift by Sinom Christen</p>
+                    <hr>
+                    <p>A Walk In The Park</p>
+                    <hr>
+                    <p>Time To Think</p>
+                    <hr>
+                    <p>Field Of Dreams</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h5 class="h5 strong">Recent Work</h5>
+                <div class="small" style="color: rgba(255, 255, 255, 0.767);">
+                    <hr>
+                    <p>Beautiful</p>
+                    <hr>
+                    <p>Travel</p>
+                    <hr>
+                    <p>Surreal</p>
+                    <hr>
+                    <p>Thoughts</p>
+                    <hr>
+                    <p>Unique</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" style="background-color: #111111; color: white;">
+            <p class="small">© 2020 ITAcademy</p>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
